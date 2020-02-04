@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<body>
+      
+
+      <button  style="float: right;" onclick="myFunction()">Print this page</button>  
+      <br>
+      <br>    
+
+<script>
+function myFunction() {
+  window.print();
+}
+</script>
+
+<div style="background-color:darkgray; height: 30px;">
+</div>
+
+<h1 align="center" >Software Requirement Specification</h1>
+<h3 align="center" >For</h3>
+<h1 align="center" >Smart Furniture</h1>
+<h4 align="center" >(Version 1.0)</h4>
+
+<br>
+<h3 align="center" >Prepared by</h3>
+<h3 align="center" >DEF</h3>
+<h5 align="center" >Emad Chowdhury &nbsp;&nbsp;&nbsp;&nbsp;1722157642&nbsp;&nbsp;&nbsp;&nbsp;emadchowdhury@gmail.com </h5>
+<h5 align="center" >Farhan Amar Tanve &nbsp;&nbsp;&nbsp;&nbsp;1632182042&nbsp;&nbsp;&nbsp;&nbsp;farhantanvi@yahoo.com </h5>
+<h5 align="center" >Dewan Shakil &nbsp;&nbsp;&nbsp;&nbsp;1631211042&nbsp;&nbsp;&nbsp;&nbsp;dewanshakil146@gmail.com</h5>
+<h4 align="center" >Instructor: Dr. Nabeel Mohammed</h4>
+<h4 align="center" >Course:CSE327.3</h4>
+<h4 align="center" >Date: 04/02/2020</h4>
+<p style="page-break-after: always;">&nbsp;</p>
+
+
+
+<div style="background-color:darkgray; height: 30px;">
+</div>
+
+<div class="slide"><h2>Table of Contents</h2>
+
+
+    <pre>
+    1.  Introduction
+          1.1 Document Purpose
+          1.2 Product Scope
+          1.3 Intended Audience And Document Overview
+          1.4 Definitions, Acronyms And Abbreviations
+          1.5 Document Conventions
+          1.6 References and Acknowlegments
+    2.  Overall Description
+          2.1  Product Overview
+          2.2  Product Functionality
+          2.3  Design and Implementation Constraints
+          2.4  Assumptions and Dependencies     
+    3.  Specific Requirements
+          3.1  External Interface Requirements
+          3.2  Functional Requirements
+          3.3  Use Case Model
+    4.  Other Non-Functional Requirements
+          4.1  Performance Requirements
+          4.2  Safety And Security Requirements
+          4.3  Software Quality Attributes           
+
+          
+    </pre>
+    <p style="page-break-after: always;">&nbsp;</p>
+
+    <div style="background-color:darkgray;">
+
+        <h2 style="text-align: center;">1. Introduction</h2>
+    </div>
+<h2>
+      <b>
+            1.1 Document Purpose
+      </b>
+</h2>
+
+<p>
+      Augmented Reality is considered as a promising technology. This technology is offering an AR experience to the users with immersive solutions in various verticals. Likewise, Augmented Reality for the furniture industry is introducing new opportunities for furniture businesses. They will be able to sell their products in an effective way. AR is enabling the users to get more in-depth details on the object. This is helping the businesses in furniture to transform their business prospects
+</p>
+
+<h2>
+      <b>
+            1.2 Product Scope
+      </b>
+</h2>
+<p>
+      With the support AR, it easy to broadcast hundreds of furniture designs and thousands of colors. Moreover, AR in furniture has taken a whole new avatar of shopping experience. This persuasive technology is currently used for numerous reasons in different industries. And one industry which is using this technology to lift its potential is the Furniture Industry. The furniture industry is leveraging this advanced technology to design and develop complex designs. AR applications in furniture can offer benefits in the planning and design of home décor.
+      <br>
+      <br>
+      Today, Augmented Reality has a larger potential application in various verticals. AR solutions are easier to fit into our daily lives due to the utilization of smartphones. This is helping retailers can use this technology in multiple ways. 
+      <ul>
+            <li>Businesses in the furniture industry can use AR to overcoming physical barriers.</li>
+            <li>The AR applications can help users to virtually try on furniture to their smartphone with personalized instructions.</li>
+            <li>AR can help to improve the retention rate of users with superimposing products with real-life environments.</li>
+            <li>Help to reduce pre-purchase indecision while cutting the rate of product return post-purchase.</li>
+            <li>AR also enables to easily personalize the product offering tailored promotions based on personal preferences.</li>
+            <li>Using analytics tools customer preferences can be gathered in different ways forecasting on the basis of the user’s history.</li>
+            <li>Furthermore, AR helps to create a unique customer journey in order to stay a step ahead of the competition.</li>
+      </ul>  
+    
+</p>
+<h2>
+      <b>
+            1.3 Intended Audience and Document Overview
+      </b>
+</h2>
+<p>
+      Augmented Reality is helping businesses to educate users about the products and engage them meaningfully. AR in furniture is a smart way to connect potential users in a unique way. The AR apps provides users with an advanced and immersive shopping experience. With AR, customers can browse the company’s furniture collection using their smartphones in their homes. It creates a more streamlined, enjoyable shopping user experience in a whole new way to transform your business. 
+      <br>
+      <br>
+      This SRS is divided into subsections with numbers.<br> <br>Section 2 is Overall Description and it has the
+      general concept, user types, and constraints of the system to understand it more specifically.
+      <br>
+      <br>
+      Section 3 is Specific Requirements defines both functional and performance requirements of the
+      system in more detail. In order to understand the functions that the different users use, use-case
+      diagrams are shown in this section. Also, this section contains the design constraints and
+      software attributes of the system.
+</p>
+<h2>
+      <b>
+            1.4 Defintions, Acronyms and Abbreviations
+
+</b>
+</h2>
+<p>
+      <b>Augmented Reality (AR)</b> is a live or indirect view of a physical,real-world environment whose elements are "augmented" by computer-generated or extracted real-world sensory input such as sound, video, graphics, haptics or GPS data.
+<br><br>
+      <b>Framework</b> is a real or conceptual structure intended to serve as a support or guide for the building of something that expands the structure into something useful.
+<br><br>
+      <b>Software Management</b> is managing software processes by planning and leading.
+</p>
+</h2>
+
+<h2>
+      <b>
+            1.5 Document Conventions
+
+
+</b>
+</h2>
+<p>
+      This document follows the IEEE format.
+</p>
+<h2>
+      <b>
+            1.6 References and Acknowledgments
+
+</b>
+</h2>
+<p>
+      Viyanon, Waraporn, et al. "AR Furniture: Integrating Augmented Reality Technology to Enhance Interior Design using Marker and Marker less tracking." Proceedings of the 2nd International Conference on Intelligent Information Processing. 2017.
+    <br><br>
+    Viyanon, Waraporn, Thanadon Songsuittipong, Phattarika Piyapaisarn, and Suwanun Sudchid. "AR Furniture: Integrating Augmented Reality Technology to Enhance Interior Design using Marker and Marker less tracking." In Proceedings of the 2nd International Conference on Intelligent Information Processing, pp. 1-7. 2017  
+    <br><br>
+    Kurniawan B, Fadryan EP. Furniture Online Shopping using Augmented Reality.
+    <br><br>
+    Khairnar K, Khairnar K, Mane S, Chaudhari R. Furniture layout application based on marker detection and using augmented reality. International Research Journal of Engineering and Technology. 2015 Oct;2(7):540-4.
+    <br><br>
+    Khairnar, Khushal, Kamleshwar Khairnar, Sanketkumar Mane, and Rahul Chaudhari. "Furniture layout application based on marker detection and using augmented reality." International Research Journal of Engineering and Technology 2, no. 7 (2015): 540-544.
+    <br><br>
+
+</p>
+     
+<p style="page-break-after: always;">&nbsp;</p>
+    <div style="background-color:darkgray;">
+
+      <h2 style="text-align: center;">2. Overall Description</h2>
+  </div>
+  <h2>
+      <b>
+            2.1 Product Overview
+      </b>
+</h2>
+<p>
+      Our system consists of an online furniture shopping which includes an extra feature called live view. This live view feature acts as a medium between our app and the web. This will allow the buyers/users to see the product virtually on their mobile/tablet devices using the camera function projecting an image of the product on the screen which they can adjust as they like. Each user can add products form their shopping cart and drag it to the display screen. 
+</p>
+
+<h2>
+      <b>
+            2.2 Product Functionality
+      </b>
+</h2>
+<p>
+     The major function of our project is to create an online furniture store which allows user to
+      login to the page to gain access to feature like live view. This feature allows users to use our
+      app on the phone to not only customise the product but also see their creation in a 3-
+      dimensional environment like their surroundings on their devices and allowing them to add even
+      more product in that environment.
+</p>
+<h2>
+      <b>
+            2.3 Design and Implementations Constraints 
+      </b>
+</h2>
+<p>
+      <ul>
+<li>Required to complete a functional app and web-based product within 3 months.</li>
+<li>Required to have a front end developer and back end developer and an Android Developer.</li>
+<li>Must be able to work multiplatform.</li>
+</ul>
+</p>
+<h2>
+      <b>
+            2.4 Assumptions and Dependencies
+      </b>
+</h2>
+<p> <ul>
+<li>Client or User has an active Internet Connection. </li>
+<li>Client or User runs an operating system with a internet browser</li>
+<li>Each user must have their own USER ID or Username and Password</li>
+<li>Only one admin</li>
+</ul>
+</p>
+<p style="page-break-after: always;">&nbsp;</p>
+    <div style="background-color:darkgray;">
+
+      <h2 style="text-align: center;">3. Specific Requirements</h2>
+  </div>
+  <h2>
+      <b>
+            3.1 External Interface Requirements
+      </b>
+</h2>
+<h4><b>3.1.1 User Interfaces</b></h4>
+<p>The user interface will be worked on mobile <a href="mobilecap.png" target="_blank"> devices </a>.<br><br></p>
+<h4><b>3.1.2 Hardware Interfaces</b></h4>
+<p>The system will work on mobile devices, tablets, and AR compatible <a href="mobilecap.png" target="_blank">devices </a>.</p>
+<h4><b>3.1.3 Software Interfaces</b></h4>
+<p>
+System shall communicate with Foundation Server, and Exchange Server via an internet connection. Data shall be transferred from these servers to the mobile device that uses the application
+</p>
+
+<h2>
+      <b>
+            3.2 Functional Requirements 
+      </b>
+</h2>
+<h4><b>3.2.1 Login </b></h4>
+<p>
+    When the user inputs the correct <a href="loginpass.png" target="_blank"> log in</a> credentials and details it should accept and give access to the full Functionality of the app
+
+</p>
+
+<h4><b>3.2.2 Browse or Search for Products</b></h4>
+<p>
+      When the user sucessfully logs in the user can now <a href="search.png" target="_blank">search</a> for desirable products
+</p>
+<h4><b>3.2.3 View the Product in AR</b></h4>
+<p>
+      When the user selects a product which is available in 3D and will therefore be <a href="3D.png" target="_blank">available</a> to view in <a href="AR.png" target="_blank">AR</a>.
+</p>
+<h2>
+      <b>
+            3.3 Use Case Model
+      </b>
+</h2>
+<h4><b>3.3.1 Use Case: <a href="Usecase.png" target="_blank">User</a></b></h4>
+
+
+<p style="page-break-after: always;">&nbsp;</p>
+    <div style="background-color:darkgray;">
+
+      <h2 style="text-align: center;">4. Other Non-functional Requirements</h2>
+  </div>
+
+  <h2>
+      <b>
+            4.1	Performance Requirements
+      </b>
+</h2>
+<p>
+      System’s visual must run smoothly without any latency to keep the level of immersion high. This requirement is depended on many aspects of the user mobile device/tablet. System will be developed by using Unity3D and Vuforia; therefore, versions of Unity3D and Vuforia must support the mobile devices’/tablets’ OS. Unity3D version must be the latest version (2017.2+). For Vuforia to be worked on mobile devices/tablets; Android OS must be 4.1.x+, IOS must be 9+.
+</p>
+      
+
+<h2>
+      <b>
+            4.2 Safety and Security Requirements
+      </b>
+</h2>
+<p>
+      <ul>
+<li>Unauthorized access to the system and its data is not allowed.</li>
+<li>Ensure the integrity of the system from accidental or malicious damage.</li>
+<li>The access of permission for the system data may only be changed by the system's data admintrator.</li>
+<li>All system data must be backed up every 24 hours and the back up copies stored in a secure location which in not in same building as the system.</li>
+<li>All external communcations between the systems data server and clients must be encrypted.</li>
+</ul>
+</p>
+<h2>
+      <b>
+            4.3 Software Quality Attributes
+      </b>
+</h2>
+<h4><b>4.3.1 Portability</b>
+</h4>
+<p>
+      Augmented Reality Based Continuous Onboarding Framework is designed for mobile devices/tablets using Unity3D and Vuforia. Unity3D supports many of the mobile devices/tablets, so system can be used mobile devices/tablets if their OS versions are supported.
+</p>
+<h4><b>4.3.2 Performance</b>
+</h4>
+<p>
+      he distance between the camera and the image shall not be more than 0.5 meters to scan. Scan operation shall not be last more than 10 seconds.
+
+</p>
+<h4><b>4.3.3  Usability</b>
+</h4>
+<p>
+      The usability should be as simple as possible since the screen of a mobile device is not big enough to place many information. New users are able to learn using the system in 5-15 minutes.
+
+
+
+
+</p>
+
+
+
+</body>
+</html>
