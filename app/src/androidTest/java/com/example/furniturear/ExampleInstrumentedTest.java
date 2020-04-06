@@ -1,4 +1,4 @@
-package com.def.arfurniture;
+package com.example.furniturear;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.def.arfurniture", appContext.getPackageName());
+        assertEquals("com.example.furniturear", appContext.getPackageName());
     }
 }

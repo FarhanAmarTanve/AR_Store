@@ -3,10 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include layout="@layout/progress_view" android:id="@+id/progress_login"/>
+    <include layout="@layout/progress_view" android:id="@+id/progress_singup"/>
 
     <ImageView
-        android:id="@+id/iv_profile_pic_login"
+        android:id="@+id/iv_profile_pic_signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -14,46 +14,45 @@
         android:src="@mipmap/ic_launcher_round" />
 
     <EditText
-        android:id="@+id/et_email_login"
+        android:id="@+id/et_email_signup"
         style="@style/et_style"
-        android:layout_below="@+id/iv_profile_pic_login"
+        android:layout_below="@+id/iv_profile_pic_signup"
         android:layout_marginTop="50dp"
         android:hint="Email" />
 
     <EditText
-        android:id="@+id/et_pass_login"
+        android:id="@+id/et_pass_signup"
         style="@style/et_style"
         android:layout_width="match_parent"
         android:inputType="textPassword"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/et_email_login"
+        android:layout_below="@+id/et_email_signup"
         android:hint="Password" />
 
+    <EditText
+        android:id="@+id/et_pass_repeat_signup"
+        style="@style/et_style"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_pass_signup"
+        android:hint="Password Repeat" />
+
 
     <TextView
-        android:id="@+id/tv_forgot_pass_login"
+        android:id="@+id/tv_signup_signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/et_pass_login"
+        android:layout_below="@+id/et_pass_repeat_signup"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Forgot Password?"
-        android:textSize="15dp" />
-
-    <TextView
-        android:id="@+id/tv_login_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tv_forgot_pass_login"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="Login"
+        android:text="Sign Up"
         android:textAppearance="?android:textAppearanceLarge" />
 
     <include
         layout="@layout/bottom_layout"
         android:layout_width="match_parent"
-        android:layout_marginTop="100dp"
         android:layout_height="50dp"
-        android:layout_below="@+id/tv_login_login" />
+        android:layout_below="@+id/tv_signup_signup"
+        android:layout_marginTop="100dp" />
 </RelativeLayout>

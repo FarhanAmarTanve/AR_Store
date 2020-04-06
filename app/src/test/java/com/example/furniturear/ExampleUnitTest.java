@@ -1,4 +1,4 @@
-package com.def.arfurniture;
+package com.example.furniturear;
 
 import org.junit.Test;
 
