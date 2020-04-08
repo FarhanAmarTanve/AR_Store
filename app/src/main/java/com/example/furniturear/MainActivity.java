@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.nav_drawer_layout);
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(getIntent());
             }
         });
+
     }
 
     @Override
@@ -51,4 +52,6 @@ public class MainActivity extends AppCompatActivity {
             mTvUserEmail.setText(emailAddress);
         }
     }
+
+
 }
